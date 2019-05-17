@@ -1,0 +1,13 @@
+.bg-default{
+ color: darkblue;
+ background: lightblue;
+}
+
+body{
+    width: 100em;
+    height: 20em;
+}
+.img-site {
+    width: 150px;
+    height: 150px;
+}
