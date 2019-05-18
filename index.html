@@ -1,47 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>Wilson GL Website</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <link href="./assets/css/style.css">
+    <title>Wilson GL Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-    </head>
+</head>
 
-    <body>
+<body class="bg-dark">
 
 
-        <div class="container-fuild mt-5 ml-5 mr-5">
-            <section class="row">
-                <aside class="col-3 text-center">
-                    <h1 class="display-4 text-info" id="my-name">Wilson Linares</h1>
-                    <img src="./assets/img/main.jpg" alt="wglm image" class="img-fluid">
-                </aside>
-                <main class="col-9">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe id="sites" src="./about.html"
-                            frameborder="0" class="embed-responsive-item"></iframe>
+    <div class="container-fuild mt-5 ml-5 mr-5 bg-transparent">
+        <section class="row">
+            <aside class="col-3 text-center">
+                <div class="row buttons">
+                    <div class="col ml-5">
+                        <h1 class="display-4 text-info" id="my-name">Wilson Linares</h1>
+                        <img src="./assets/img/main.jpg" alt="wglm image" class="img-fluid">
                     </div>
-                </main>
-            </section>
-            <footer class="row text-center" id="buttons">
-                <section class="col ml-5 mr-5 justify-content-around"><a class="links" color="text-info" href="#" ref="./about.html"><img
-                            src="./assets/img/about.png" alt="About" class="img-fluid img-site"></a></section>
-                <section class="col ml-5 mr-5 justify-content-around"><a class="links" color="text-success" href="#"
-                        ref="./portfolio.html"><img src="./assets/img/portfolio.png" alt="Portfolio" class="img-fluid img-site"></a></section>
-                <section class="col ml-5 mr-5 justify-content-around"><a class="links" color="text-primary" href="#"
-                        ref="./contact.html"><img src="./assets/img/contacme.png" alt="Contact Me" class="img-fluid img-site"></a></section>
-            </footer>
+                </div>
+                <div class="row buttons mt-1 ml-4">
+                    <section class="col"><a class="links" color="text-info" href="#" ref="./about.html"><img
+                                src="./assets/img/about.png" alt="About" class="img-fluid img-site"></a>
+                    </section>
+                </div>
+                <div class="row buttons mt-1 ml-4">
+                    <section class="col"><a class="links" color="text-success" href="#" ref="./portfolio.html"><img
+                                src="./assets/img/portfolio.png" alt="Portfolio" class="img-fluid img-site"></a>
+                    </section>
+                </div>
+                <div class="row buttons mt-1 ml-4">
+                    <section class="col"><a class="links" color="text-primary" href="#" ref="./contact.html"><img
+                                src="./assets/img/contacme.png" alt="Contact Me" class="img-fluid img-site"></a>
+                    </section>
+                </div>
 
-        </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="./assets/javascript/app.js"></script>
-    </body>
+            </aside>
+
+            <main class="col-9 bg-transparent">
+                <div class="embed-responsive embed-responsive-1by1 bg-transparent">
+                    <iframe class="embed-responsive-item" id="sites" src="./about.html" frameborder="0"></iframe></div>
+
+            </main>
+        </section>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/javascript/app.js"></script>
+</body>
 
 </html>
