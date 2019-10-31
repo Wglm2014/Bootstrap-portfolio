@@ -6,11 +6,9 @@ Is a client side app that display information about Wilson Linares (me) and the 
 
 
 ## Installing and Starting the app locally
-
 Clone the app from this repository to you local drive of you PC (previously I recomended to have knowledge of how to clone repositories and where to find the information) and go to the root directory of the project, since the app runs only on the client side you do not need to install packages. To run the app locally just open on Visual Studio Code the index.html file, then right click and select the option run on default browser. This will automatically open your default browser and run the html page.
 
 ## Deployment (Github)
-
 To run it on the web follow the instuction provided by github documentation [Github Pages](https://pages.github.com/)
 
 ## Built With
