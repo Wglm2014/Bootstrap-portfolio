@@ -1,27 +1,24 @@
-
-.img-site{
-    width: 60vw;
-    height: 60vh;
-    max-width: 600px;
-    max-height: 400px;
-    opacity: 0.60;
+.picture {
+    max-width: 40vh;
+    max-height: 40vw;
 }
-
-.img-grid {
-    width: 30vw;
-    height: 30vh;
-    max-width: 95%;
-    max-height: 95%;
-}
-
 .title-lg{
-    font-size: 10vh;
+    font-size: 8vh;
 }
 .title-md{
-    font-size: 6vh;
+    font-size: 4vh;
 }
 
+.text-about{
+    font-size: 2vh;
+}
 #portfolio,
 #contact{
     display: none;
+}
+
+
+.image-grid {
+    max-width: 80%;
+    max-height: 80%;
 }
